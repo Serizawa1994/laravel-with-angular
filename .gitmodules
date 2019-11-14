@@ -1,0 +1,3 @@
+[submodule "angular-in-laravel"]
+	path = angular-in-laravel
+	url = https://github.com/Serizawa1994/angular-in-laravel.git
