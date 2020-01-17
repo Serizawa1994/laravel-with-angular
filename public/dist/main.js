@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"box title-box\">\n    <div class=\"box top-box\">\n        <form>\n            <div class=\"form-group-lg\">\n                <label>メーカー名</label>\n                <input type=\"text\" class=\"form-control\">\n            </div>\n        </form>\n    </div>\n    \n    <div class=\"box middle-box\">\n        <div class=\"wrapper first_middle-wrapper\">\n            \n            <div class=\"plate left-plate\">\n                <div class=\"plate category-column\">\n                    <form>\n                        <div class=\"form-group-lg\">\n                            <label>カテゴリー１</label>\n                            <input type=\"text\" class=\"form-control\">\n                        </div>\n                    </form>\n                </div>\n                \n                <div class=\"plate button-column\">\n                    <button type=\"submit\" class=\"btn btn-danger\">＋</button>\n                </div>\n            </div>\n            \n            <div class=\"plate right-plate\">\n                <div class=\"catalog-column\">\n                    <form>\n                        <div class=\"form-group-lg\">\n                            <label>カタログ１</label>\n                            <input type=\"text\" class=\"form-control\">\n                            <label>カタログPDF</label>\n                            <input type=\"text\" class=\"form-control\">\n                        </div>\n                    </form>\n                </div>\n                \n                <div class=\"plate button-column\">\n                    <button type=\"submit\" class=\"btn btn-danger\">＋</button>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>\n    \n");
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"box title-box\">\n    <div class=\"box top-box\">\n        <form  id=\"start\">\n            <div class=\"form-group-lg\">\n                <label>メーカー名</label>\n                <input type=\"text\" class=\"form-control\" id=\"one\">\n            </div>\n        </form>\n    </div>\n    \n    <div class=\"box middle-box\">\n        <div class=\"wrapper first_middle-wrapper\">\n            \n            <div class=\"plate left-plate\">\n                <div class=\"plate category-column\">\n                    <form>\n                        <div class=\"form-group-lg\">\n                            <label>カテゴリー１</label>\n                            <input type=\"text\" class=\"form-control\" id=\"two\">\n                        </div>\n                    </form>\n                </div>\n                \n                <div class=\"plate button-column\">\n                    <button type=\"submit\" class=\"btn btn-danger\">＋</button>\n                </div>\n            </div>\n            \n            <div class=\"plate right-plate\">\n                <div class=\"catalog-column\" id=\"three\">\n                    <form>\n                        <div class=\"form-group-lg\">\n                            <label>カタログ１</label>\n                            <input type=\"text\" class=\"form-control\">\n                            <label>カタログPDF</label>\n                            <input type=\"text\" class=\"form-control\">\n                        </div>\n                    </form>\n                </div>\n                \n                <div class=\"plate button-column\">\n                    <button type=\"submit\" class=\"btn btn-danger\">＋</button>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>\n    \n");
 
 /***/ }),
 
@@ -374,7 +374,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".title-box {\n    margin: 0 auto;\n    max-width: 1640px;\n    padding:20px 20px;\n    width: 100%;\n}\n\n.box {\n    position: relative;\n}\n\n.wrapper {\n    position: relative;\n}\n\n.plate {\n    position: relative;\n}\n\n.top-box {\n    width: 20%;\n    left: 0;\n}\n\n.middle-box {\n    margin: 5% 0 0 15%;\n}\n\n.first_middle-wrapper {\n    display: flex;\n}\n\n.left-plate {\n    width: 40%;\n    display: flex;\n}\n\n.right-plate {\n    display: flex;\n    width: 60%;\n    margin-left: 5%;\n}\n\n.left-plate .button-column {\n    margin: 30px 0 0 10px;\n    width: 20%;\n}\n\n.right-plate .button-column {\n    margin: auto 0 auto 10px;\n    width: 20%;\n}\n\n.category-column {\n    width: 80%;\n}\n\n.catalog-column {\n    width: 80%;\n    border: 1px solid #d3d3d3;\n    border-radius: 8px;\n    padding: 30px;\n}\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdGl0bGUvdGl0bGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGNBQWM7SUFDZCxpQkFBaUI7SUFDakIsaUJBQWlCO0lBQ2pCLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLFVBQVU7SUFDVixPQUFPO0FBQ1g7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxhQUFhO0FBQ2pCOztBQUVBO0lBQ0ksVUFBVTtJQUNWLGFBQWE7QUFDakI7O0FBRUE7SUFDSSxhQUFhO0lBQ2IsVUFBVTtJQUNWLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxxQkFBcUI7SUFDckIsVUFBVTtBQUNkOztBQUVBO0lBQ0ksd0JBQXdCO0lBQ3hCLFVBQVU7QUFDZDs7QUFFQTtJQUNJLFVBQVU7QUFDZDs7QUFFQTtJQUNJLFVBQVU7SUFDVix5QkFBeUI7SUFDekIsa0JBQWtCO0lBQ2xCLGFBQWE7QUFDakIiLCJmaWxlIjoic3JjL2FwcC90aXRsZS90aXRsZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRpdGxlLWJveCB7XG4gICAgbWFyZ2luOiAwIGF1dG87XG4gICAgbWF4LXdpZHRoOiAxNjQwcHg7XG4gICAgcGFkZGluZzoyMHB4IDIwcHg7XG4gICAgd2lkdGg6IDEwMCU7XG59XG5cbi5ib3gge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLndyYXBwZXIge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLnBsYXRlIHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi50b3AtYm94IHtcbiAgICB3aWR0aDogMjAlO1xuICAgIGxlZnQ6IDA7XG59XG5cbi5taWRkbGUtYm94IHtcbiAgICBtYXJnaW46IDUlIDAgMCAxNSU7XG59XG5cbi5maXJzdF9taWRkbGUtd3JhcHBlciB7XG4gICAgZGlzcGxheTogZmxleDtcbn1cblxuLmxlZnQtcGxhdGUge1xuICAgIHdpZHRoOiA0MCU7XG4gICAgZGlzcGxheTogZmxleDtcbn1cblxuLnJpZ2h0LXBsYXRlIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIHdpZHRoOiA2MCU7XG4gICAgbWFyZ2luLWxlZnQ6IDUlO1xufVxuXG4ubGVmdC1wbGF0ZSAuYnV0dG9uLWNvbHVtbiB7XG4gICAgbWFyZ2luOiAzMHB4IDAgMCAxMHB4O1xuICAgIHdpZHRoOiAyMCU7XG59XG5cbi5yaWdodC1wbGF0ZSAuYnV0dG9uLWNvbHVtbiB7XG4gICAgbWFyZ2luOiBhdXRvIDAgYXV0byAxMHB4O1xuICAgIHdpZHRoOiAyMCU7XG59XG5cbi5jYXRlZ29yeS1jb2x1bW4ge1xuICAgIHdpZHRoOiA4MCU7XG59XG5cbi5jYXRhbG9nLWNvbHVtbiB7XG4gICAgd2lkdGg6IDgwJTtcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjZDNkM2QzO1xuICAgIGJvcmRlci1yYWRpdXM6IDhweDtcbiAgICBwYWRkaW5nOiAzMHB4O1xufVxuXG4iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".title-box {\n    margin: 0 auto;\n    max-width: 1640px;\n    padding:20px 20px;\n    width: 100%;\n}\n\n.box {\n    position: relative;\n}\n\n.wrapper {\n    position: relative;\n}\n\n.plate {\n    position: relative;\n}\n\n.top-box {\n    width: 20%;\n    left: 0;\n}\n\n.middle-box {\n    margin: 5% 0 0 15%;\n}\n\n.first_middle-wrapper {\n    display: flex;\n}\n\n.left-plate {\n    width: 40%;\n    display: flex;\n}\n\n.right-plate {\n    display: flex;\n    width: 60%;\n    margin-left: 5%;\n}\n\n.left-plate .button-column {\n    margin: 30px 0 0 10px;\n    width: 20%;\n}\n\n.right-plate .button-column {\n    margin: auto 0 auto 10px;\n    width: 20%;\n}\n\n.category-column {\n    width: 80%;\n}\n\n.catalog-column {\n    width: 80%;\n    border: 1px solid #d3d3d3;\n    border-radius: 8px;\n    padding: 30px;\n}\n\n\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdGl0bGUvdGl0bGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGNBQWM7SUFDZCxpQkFBaUI7SUFDakIsaUJBQWlCO0lBQ2pCLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLFVBQVU7SUFDVixPQUFPO0FBQ1g7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxhQUFhO0FBQ2pCOztBQUVBO0lBQ0ksVUFBVTtJQUNWLGFBQWE7QUFDakI7O0FBRUE7SUFDSSxhQUFhO0lBQ2IsVUFBVTtJQUNWLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxxQkFBcUI7SUFDckIsVUFBVTtBQUNkOztBQUVBO0lBQ0ksd0JBQXdCO0lBQ3hCLFVBQVU7QUFDZDs7QUFFQTtJQUNJLFVBQVU7QUFDZDs7QUFFQTtJQUNJLFVBQVU7SUFDVix5QkFBeUI7SUFDekIsa0JBQWtCO0lBQ2xCLGFBQWE7QUFDakIiLCJmaWxlIjoic3JjL2FwcC90aXRsZS90aXRsZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRpdGxlLWJveCB7XG4gICAgbWFyZ2luOiAwIGF1dG87XG4gICAgbWF4LXdpZHRoOiAxNjQwcHg7XG4gICAgcGFkZGluZzoyMHB4IDIwcHg7XG4gICAgd2lkdGg6IDEwMCU7XG59XG5cbi5ib3gge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLndyYXBwZXIge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLnBsYXRlIHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi50b3AtYm94IHtcbiAgICB3aWR0aDogMjAlO1xuICAgIGxlZnQ6IDA7XG59XG5cbi5taWRkbGUtYm94IHtcbiAgICBtYXJnaW46IDUlIDAgMCAxNSU7XG59XG5cbi5maXJzdF9taWRkbGUtd3JhcHBlciB7XG4gICAgZGlzcGxheTogZmxleDtcbn1cblxuLmxlZnQtcGxhdGUge1xuICAgIHdpZHRoOiA0MCU7XG4gICAgZGlzcGxheTogZmxleDtcbn1cblxuLnJpZ2h0LXBsYXRlIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIHdpZHRoOiA2MCU7XG4gICAgbWFyZ2luLWxlZnQ6IDUlO1xufVxuXG4ubGVmdC1wbGF0ZSAuYnV0dG9uLWNvbHVtbiB7XG4gICAgbWFyZ2luOiAzMHB4IDAgMCAxMHB4O1xuICAgIHdpZHRoOiAyMCU7XG59XG5cbi5yaWdodC1wbGF0ZSAuYnV0dG9uLWNvbHVtbiB7XG4gICAgbWFyZ2luOiBhdXRvIDAgYXV0byAxMHB4O1xuICAgIHdpZHRoOiAyMCU7XG59XG5cbi5jYXRlZ29yeS1jb2x1bW4ge1xuICAgIHdpZHRoOiA4MCU7XG59XG5cbi5jYXRhbG9nLWNvbHVtbiB7XG4gICAgd2lkdGg6IDgwJTtcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjZDNkM2QzO1xuICAgIGJvcmRlci1yYWRpdXM6IDhweDtcbiAgICBwYWRkaW5nOiAzMHB4O1xufVxuXG5cblxuIl19 */");
 
 /***/ }),
 
@@ -390,19 +390,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TitleComponent", function() { return TitleComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+/* harmony import */ var node_modules_leader_line__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! node_modules/leader-line */ "./node_modules/leader-line/leader-line.min.js");
+
+
 
 
 let TitleComponent = class TitleComponent {
-    constructor() { }
+    constructor(document) {
+        this.document = document;
+    }
     ngOnInit() {
+        new node_modules_leader_line__WEBPACK_IMPORTED_MODULE_3__["LeaderLine"](this.document.getElementById('one'), this.document.getElementById('two'), {
+            startPlug: "behind",
+            endPlug: "behind",
+            startSocket: "bottom",
+            endSocket: "left"
+        });
+        new node_modules_leader_line__WEBPACK_IMPORTED_MODULE_3__["LeaderLine"](this.document.getElementById('two'), this.document.getElementById('three'), {
+            startPlug: "behind",
+            endPlug: "behind",
+            startSocket: "bottom",
+            endSocket: "left"
+        });
     }
 };
+TitleComponent.ctorParameters = () => [
+    { type: undefined, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["DOCUMENT"],] }] }
+];
 TitleComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-title',
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./title.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/title/title.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./title.component.css */ "./src/app/title/title.component.css")).default]
-    })
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_common__WEBPACK_IMPORTED_MODULE_2__["DOCUMENT"]))
 ], TitleComponent);
 
 
